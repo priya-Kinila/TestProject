@@ -14,6 +14,7 @@ public class TestClass {
 		      
 		// Launch website  
 		    driver.navigate().to("http://www.google.com/");  
+		    driver.manage().window().maximize();
 		          
 		    // Click on the search text box and send value  
 		    driver.findElement(By.name("q")).sendKeys("javatpoint tutorials");  
